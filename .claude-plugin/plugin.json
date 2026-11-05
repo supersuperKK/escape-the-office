@@ -1,0 +1,9 @@
+{
+  "name": "escape-the-office",
+  "description": "逃离办公室：现实搞笑风的打工人文字肉鸽，让你的 Agent 当主持人。A comedic office-escape text roguelike your agent hosts.",
+  "version": "0.1.0",
+  "author": {"name": "supersuperKK"},
+  "repository": "https://github.com/supersuperKK/escape-the-office",
+  "license": "MIT",
+  "keywords": ["game", "roguelike", "text-adventure", "skill"]
+}

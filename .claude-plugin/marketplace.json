@@ -1,0 +1,11 @@
+{
+  "name": "escape-the-office",
+  "owner": {"name": "supersuperKK"},
+  "plugins": [
+    {
+      "name": "escape-the-office",
+      "source": "./",
+      "description": "逃离办公室：打工人文字肉鸽，Agent 当主持人。"
+    }
+  ]
+}

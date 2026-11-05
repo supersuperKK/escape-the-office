@@ -1,0 +1,32 @@
+{
+  "bag_limit": 6,
+  "starter": ["badge", "milktea", "powerbank"],
+  "rarity_weights": {"common": 60, "rare": 30, "legendary": 8, "cursed": 2},
+  "items": [
+    {"id": "badge", "name": "工牌", "rarity": "starter", "kind": "passive", "effect": "刷门禁 +2", "bonus": {"door": 2}, "icon": "badge.png"},
+    {"id": "milktea", "name": "半杯冰奶茶", "rarity": "starter", "kind": "consumable", "effect": "贿赂 NPC 或泼洒制造混乱，警觉 -2；也可只当道具拿着（+2 伪装，不消耗）", "bonus": {"disguise": 2}, "icon": "milktea.png"},
+    {"id": "powerbank", "name": "充电宝", "rarity": "starter", "kind": "consumable", "effect": "给话痨小李的手机续命，他立刻闭嘴去刷视频", "bonus": {}, "icon": "powerbank.png"},
+    {"id": "folder", "name": "文件夹", "rarity": "common", "kind": "consumable", "effect": "“我去送文件”，伪装 +3", "bonus": {"disguise": 3}, "icon": "folder.png"},
+    {"id": "notebook", "name": "假装开会笔记本", "rarity": "common", "kind": "passive", "effect": "说谎/演技 +2", "bonus": {"bluff": 2}, "icon": "notebook.png"},
+    {"id": "mint", "name": "薄荷糖", "rarity": "common", "kind": "consumable", "effect": "回 1 格体力", "bonus": {}, "icon": "mint.png"},
+    {"id": "umbrella", "name": "雨伞", "rarity": "common", "kind": "passive", "effect": "遮脸，被认出类判定 +2；下雨事件必备", "bonus": {"stealth": 2}, "icon": "umbrella.png"},
+    {"id": "headphones", "name": "降噪耳机", "rarity": "common", "kind": "passive", "effect": "免疫小李话痨和群消息分心", "bonus": {}, "icon": "headphones.png"},
+    {"id": "tissue", "name": "带薪如厕卷纸", "rarity": "rare", "kind": "consumable", "effect": "躲进厕所跳过一次巡逻，时间照走", "bonus": {}, "icon": "tissue.png"},
+    {"id": "luosifen", "name": "螺蛳粉", "rarity": "rare", "kind": "consumable", "effect": "清空当前区域所有人，但警觉 +1", "bonus": {}, "icon": "luosifen.png"},
+    {"id": "hardhat", "name": "安全帽", "rarity": "rare", "kind": "passive", "effect": "伪装修理工，消防通道/地下车库 +3", "bonus": {"stairs": 3, "garage": 3}, "icon": "hardhat.png"},
+    {"id": "helmet", "name": "外卖头盔", "rarity": "rare", "kind": "passive", "effect": "伪装外卖员，大堂 +3", "bonus": {"lobby": 3}, "icon": "helmet.png"},
+    {"id": "chess", "name": "象棋残局谱", "rarity": "rare", "kind": "consumable", "effect": "保安老周看入迷，直接放行", "bonus": {}, "icon": "chess.png"},
+    {"id": "roofkey", "name": "天台钥匙", "rarity": "rare", "kind": "key", "effect": "解锁天台路线（隐藏结局）", "bonus": {}, "icon": "roofkey.png"},
+    {"id": "outpass", "name": "盖章外出单", "rarity": "legendary", "kind": "key", "effect": "光明正大“外勤”（隐藏结局）", "bonus": {}, "icon": "outpass.png"},
+    {"id": "carkey", "name": "老板车钥匙", "rarity": "legendary", "kind": "key", "effect": "解锁地下车库·老板车路线（隐藏结局）", "bonus": {}, "icon": "carkey.png"},
+    {"id": "thermos", "name": "老板同款保温杯", "rarity": "legendary", "kind": "passive", "effect": "被当成老板亲信，每局 1 次自动通过判定", "bonus": {}, "icon": "thermos.png"},
+    {"id": "invite", "name": "会议邀请", "rarity": "cursed", "kind": "passive", "effect": "诅咒：每 2 回合被“15 分钟同步一下”拖住一回合；但持有时 HR 不查你（你在“开会”）。拿到就丢不掉", "bonus": {}, "icon": "invite.png"}
+  ],
+  "combos": [
+    {"items": ["helmet", "luosifen"], "effect": "外卖员人设拉满，大堂自动通过"},
+    {"items": ["folder", "thermos"], "effect": "“老板让我送文件”，任一门口自动通过"},
+    {"items": ["hardhat", "powerbank"], "effect": "“我来修弱电箱的”，电梯判定难度 -4"},
+    {"items": ["headphones", "invite"], "effect": "戴耳机“没听见”，会议邀请诅咒失效"},
+    {"items": ["umbrella", "roofkey"], "effect": "天台结局追加彩蛋：雨中的城市"}
+  ]
+}
